@@ -1,33 +1,159 @@
-ul li{
+*{  
+    box-sizing: border-box;
+ }
+img{
+    width:100%;
+}
+ body{
+    padding:2px;
+} 
+header{
+    width: 1150px;
+}
+header ul li{
     display: inline-block;
     float: right;
     margin:2px;
 }
 ul :first-child{
+    display: inline-block;
     float: left;
-}
-ul :first-child{
+position: relative;
+left:5px;
     margin-left: 5px;
 }
 ul :nth-child(2){
     margin-right: 20px;
 }
-div{
-    position: relative;
-    top:10px;
-    left:5px;
-}
-h1{
+header div p {
     font-family: 'Caveat', cursive;
     text-align: left;
     position: relative;
-    left: 50px;
-    top:20px;
-}
-p{
-    font-size: 10px;
+    top:35px;
+    left: -75px;
+    float:left;
+    
+} 
+ header div h1 {
+    font-family: 'Sofia', cursive;
+    font-size: 25px;
     text-align: left;
     position: relative;
-    left: 50px;
-    top:20px;
+    top:10px;
+    left:15px;
+    float: left;
+}
+
+main div{
+    margin:5px;
+    position: relative;
+    left: 13px;
+}
+main div p img{
+    width: 13px;
+    height: 10px;
+    position: relative;
+    right:20px;
+
+}
+
+main:nth-child(2){
+    margin: top 7px;
+    position: relative;
+    left: 35px;
+}
+main :nth-child(3){
+    float: right;
+    width:13px;
+    height:10px; 
+
+}
+main div p{
+margin-right: 350px;
+color: grey;
+}
+div p{
+    color:grey;
+    position: relative;
+    left:15px;
+    bottom: 15px;
+    float:right;
+}
+
+main img{
+    width:1150px;
+    position: relative;
+    top:50px;
+}
+
+
+section {
+
+    width: 100%;
+   display: block;
+}
+form{
+    margin-top: 15px;
+    width:1150px;
+    height: 350px;
+    background-image:url("https://github.com/LTUC/amman-201d18/blob/main/class-10/choco-pizza-lab/lab-assets/list-bg.png?raw=true");
+}
+section img{
+    position: relative;
+    bottom:150px;
+}
+fieldset{
+    display:inline-block;
+    width:40%;
+}
+/* form:first-child{
+    margin:20px;
+text-align: left;
+display: inline-block;
+} */
+form div fieldset{
+    float:right;
+    position: relative;
+    bottom: 327px;
+}
+footer img{
+    float :left;
+    width:71px;
+    height: 68px;
+}
+form{
+    font-size: 15px;
+}
+label{
+    margin:20px;
+}
+input{
+    margin:20px;
+}
+footer p{
+    float :left;
+    width:160px;
+    height: 68px;
+}
+footer div img{
+    position: relative;
+    right: 10px;
+    float: right;
+    width:150px;
+}
+footer section img{
+    position: relative;
+    left:300px;
+    top:70px;
+}
+footer section p{  
+    width:400px;
+    position: relative;
+    top:150px;
+    left:150px;
+}
+footer{
+    width:1150px;
+    position: relative;
+    top: 50px;
 }
